@@ -1,0 +1,16 @@
+body {
+    font-family: 'Raleway';
+    background: #090909;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    height: 11%;
+    display: inline-block;
+  }
+
+  .line {
+    border-bottom: 4px linear to right, #91704F, #090909;
+   }
+   
