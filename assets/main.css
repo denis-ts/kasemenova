@@ -1,44 +1,73 @@
 body {
-    font-family: 'Raleway';
-    color: white;
-    background: #090909;
-    margin: 0px;
+  font-family: 'Raleway';
+  color: white;
+  background: #090909;
+  margin: 0px;
 }
 
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.flex-container {
+  flex-direction: column;
+}
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 header {
-  background: green;
-    font-size: 20;
-    font-weight: 600;
-    height: 110px;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid red;
-  }
+background: green;
+  font-size: 20;
+  font-weight: 600;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
 
-  .logo {
-    flex: 19.7%;
-    padding: 32px 212px 37px 62px;
-    border: 1px solid blue;
-    align-items: left;
-  }
-      
-  .menu{  
-    flex: 62.6%;
-    border: 1px solid red;
-    }  
+.container {
+  width: 61.45%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
 
+.logo {
+  flex: 8.9%;
+  padding: 37px 74px 32px 0;
+  border: 1px solid blue;
+  align-items: left;
+}
+    
+.menu{  
+  flex: 55.2%;
+  padding: 45px 73px 41px 0;
+  border: 1px solid red;
+  }  
 
-  .tel { 
-    flex: 17.7%;
-    border: 1px solid red;
+.menu ul {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  border: 1px solid red;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 4.61%;
+}
+  
+.tel { 
+  flex: 23.5%;
+  border: 1px solid red;
 }  
+
+.tel ul {
+  list-style-type: none;
+  margin-left: 0; 
+  padding-left: 0;
+}
+
+.tel li {
+  display: inline;
+}
