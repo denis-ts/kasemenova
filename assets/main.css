@@ -2,55 +2,43 @@ body {
     font-family: 'Raleway';
     color: white;
     background: #090909;
+    margin: 0px;
 }
 
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 
+* {
+  box-sizing: border-box;
+}
 
 header {
   background: green;
-    text-align: center;
     font-size: 20;
     font-weight: 600;
-    width: 93%;
-    height: 11%;
+    height: 110px;
     display: flex;
-    align-items: center;
-    border-bottom: 4px solid, #91704F;
+    flex-direction: row;
+    border: 1px solid red;
   }
 
-.logo {
-    margin: 32px 212px 32px 62px;
+  .logo {
+    flex: 19.7%;
+    padding: 32px 212px 37px 62px;
+    border: 1px solid blue;
     align-items: left;
-    margin-right: 212px;
-}
+  }
+      
+  .menu{  
+    flex: 62.6%;
+    border: 1px solid red;
+    }  
 
-.menu {
-  margin: 43px 387px 43px 0px;
-}
 
-.menu li {
-  display: inline-block;
-  margin-right: 71px;
-}
-
-.menu li a{
-  display: block;
-  text-decoration: none;
-  color: white;
-}
-
-.tel {
-  flex-grow: 1;
-}
-
-.tel ul {
-  display: flex;
-  flex-flow: row nowrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.tel li {
-  margin-right: 13px;
-}
+  .tel { 
+    flex: 17.7%;
+    border: 1px solid red;
+}  
