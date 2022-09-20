@@ -68,18 +68,17 @@ background: #090909;
   flex: 23.5%;
   padding: 37px 0 34px 0;
   border: 1px solid red;
+  display: flex;
 }  
 
-.tel ul {
-  list-style-type: none;
-  margin: 0; 
+.logoleft {
+  border: 1px solid red;
   padding: 0;
-  border: 1px solid blue;
 }
 
-.tel li {
-  display: inline;
-  vertical-align: top;
+.logoright {
+  border: 1px solid red;
+  padding: 0
 }
 
 .tel a {
@@ -89,4 +88,5 @@ background: #090909;
 
 .tel p {
   font-size: 13px;
+  margin: 0;
 }
