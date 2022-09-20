@@ -16,17 +16,19 @@ box-sizing: border-box;
 }
 
 header {
-background: green;
-  font-size: 20;
+background: #090909;
+  font-size: 20px;
   font-weight: 600;
   height: 110px;
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  border-bottom: solid 4px;
+  border-image: linear-gradient(to right, #91704F, #090909) 1;
 }
 
 .container {
   width: 61.45%;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -41,7 +43,7 @@ background: green;
     
 .menu{  
   flex: 55.2%;
-  padding: 45px 73px 41px 0;
+  padding: 45px 0 41px 0;
   border: 1px solid red;
   }  
 
@@ -56,18 +58,35 @@ background: green;
   display: inline;
   margin-right: 4.61%;
 }
-  
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
 .tel { 
   flex: 23.5%;
+  padding: 37px 0 34px 0;
   border: 1px solid red;
 }  
 
 .tel ul {
   list-style-type: none;
-  margin-left: 0; 
-  padding-left: 0;
+  margin: 0; 
+  padding: 0;
+  border: 1px solid blue;
 }
 
 .tel li {
   display: inline;
+  vertical-align: top;
+}
+
+.tel a {
+  color: white;
+  text-decoration: none;
+}
+
+.tel p {
+  font-size: 13px;
 }
