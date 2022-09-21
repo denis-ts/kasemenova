@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway';
-  color: white;
+  color: #FFFFFF;
   background: #090909;
   margin: 0px;
 }
@@ -15,11 +15,13 @@ body {
 box-sizing: border-box;
 }
 
+/*ШАПКА САЙТА*/
+
 header {
 background: #090909;
   font-size: 20px;
   font-weight: 600;
-  height: 110px;
+  height: 114px;
   display: flex;
   flex-direction: row;
   border-bottom: solid 4px;
@@ -36,57 +38,69 @@ background: #090909;
 
 .logo {
   flex: 8.9%;
-  padding: 37px 74px 32px 0;
-  border: 1px solid blue;
+  padding: 37px 89px 32px 3px;
   align-items: left;
 }
     
 .menu{  
   flex: 55.2%;
   padding: 45px 0 41px 0;
-  border: 1px solid red;
   }  
 
 .menu ul {
   list-style-type: none;
   margin: 0; 
   padding: 0;
-  border: 1px solid red;
 }
 
 .menu li {
   display: inline;
-  margin-right: 4.61%;
+  margin-right: 30px;
 }
 
 .menu a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-.tel { 
+.connection { 
   flex: 23.5%;
+  flex-wrap: nowrap;
   padding: 37px 0 34px 0;
-  border: 1px solid red;
+  padding-left: 43px;
   display: flex;
+
 }  
 
-.logoleft {
-  border: 1px solid red;
-  padding: 0;
-}
-
-.logoright {
-  border: 1px solid red;
-  padding: 0
-}
-
-.tel a {
-  color: white;
+.connection a {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-.tel p {
-  font-size: 13px;
+.connection p {
+  font-size: 12px;
+  font-weight: 400;
   margin: 0;
 }
+.logotg {
+  padding-right: 13px;
+}
+
+.logowhapp {
+  padding-right: 13px;
+}
+
+.numbertel {
+  padding: 0px;
+}
+
+/*ПЕРВАЯ СТРАНИЦА*/
+
+.firstpage {
+  width: 61.45%;
+  height: 830px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid red;
+}
+
