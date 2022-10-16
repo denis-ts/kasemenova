@@ -19,7 +19,7 @@ box-sizing: border-box;
 
 header {
 background: #090909;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   height: 114px;
   display: flex;
@@ -104,3 +104,10 @@ background: #090909;
   border: 1px solid red;
 }
 
+.photoright {
+  margin-left: 674.42px;
+
+  
+  box-shadow: inset 0px -54px 91px 39px rgba(0, 0, 0, 0.25);
+  align-items: right; 
+}
