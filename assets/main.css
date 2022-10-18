@@ -102,12 +102,16 @@ background: #090909;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid red;
+  background-image: url('main screen (1).jpg');
+  background-position : top right;
+  background-repeat : no-repeat;
+  box-shadow: inset 0 0 12px 8px rgba(0,0,0,.6);
 }
 
 .photoright {
   margin-left: 674.42px;
 
-  
-  box-shadow: inset 0px -54px 91px 39px rgba(0, 0, 0, 0.25);
+  border: 1px solid red;
+
   align-items: right; 
 }
