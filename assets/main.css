@@ -18,7 +18,7 @@ box-sizing: border-box;
 /*ШАПКА САЙТА*/
 
 header {
-background: #090909;
+  background: #090909;
   font-size: 17px;
   font-weight: 600;
   height: 114px;
@@ -96,18 +96,61 @@ background: #090909;
 
 /*ПЕРВАЯ СТРАНИЦА*/
 
-.firstpage {
+.firstcontainer {
+background-image: url("main_screen(1).png");
+overflow: hidden;
+background-repeat: no-repeat;
+
+position:relative;
+border: 1px solid red;
+padding: 0px;
+margin: 0px;
+}
+
+.fctop {
+  font-weight: 400;
+  padding-top: 117px;
+  font-size: 60px;
   width: 61.45%;
   height: 830px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid red;
+  border: 1px solid green;
 }
 
-.photoright {
-  margin-left: 674.42px;
+.fctopsmall {
+  font-size: 24px;
+  margin-left: 304px;
+  margin-top: -119px;
+}
 
+.button {
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 27px;
+
+box-sizing: border-box;
   
-  box-shadow: inset 0px -54px 91px 39px rgba(0, 0, 0, 0.25);
-  align-items: right; 
+display: flex;
+align-items: center;
+text-align: center;
+padding: 15.102px;
+gap: 7.55px;
+  
+position: absolute;
+width: 218.2px;
+height: 74.2px;
+left: 370px;
+top: 377px;
+  
+background: linear-gradient(180deg, #D9944F 0%, #403121 100%);
+border-radius: 44.551px;
+
+}
+
+.buttondown {
+font-size: 11px;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
