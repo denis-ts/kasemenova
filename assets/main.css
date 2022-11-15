@@ -98,6 +98,7 @@ header {
 
 .firstcontainer {
 background-image: url("main_screen(1).png");
+background-position: top right;
 overflow: hidden;
 background-repeat: no-repeat;
 
@@ -175,17 +176,23 @@ margin-top: 80px;
 /*ВТОРАЯ СТРАНИЦА*/
 
 .secondcontainer {
+  background: #f1f1f1;
   background-image: url("main_screen(2).png");
+
   overflow: hidden;
   background-repeat: no-repeat;
   
   position:relative;
   padding: 0px;
   margin: 0px;
+
+  border: red solid
   
   }
   
+
   .scheader {
+    font-family: 'Bebas Neue';
     font-weight: 400;
     padding-top: 57px;
     font-size: 60px;
@@ -193,5 +200,9 @@ margin-top: 80px;
     height: 830px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+    color: #000000;
+    border: green solid
   
   }
+
