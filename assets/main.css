@@ -115,7 +115,6 @@ margin: 0px;
   height: 830px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .fctopsmall {
@@ -172,3 +171,27 @@ font-weight: 100;
 font-size: 28px;
 margin-top: 80px;
 }
+
+/*ВТОРАЯ СТРАНИЦА*/
+
+.secondcontainer {
+  background-image: url("main_screen(2).png");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  
+  position:relative;
+  padding: 0px;
+  margin: 0px;
+  
+  }
+  
+  .scheader {
+    font-weight: 400;
+    padding-top: 57px;
+    font-size: 60px;
+    width: 61.45%;
+    height: 830px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
