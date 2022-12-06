@@ -186,23 +186,23 @@ margin-top: 80px;
   padding: 0px;
   margin: 0px;
 
-  border: red solid
+ 
   
   }
   
 
   .scheader {
     font-family: 'Bebas Neue';
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 57px;
-    font-size: 60px;
+    font-size: 46px;
     width: 61.45%;
     height: 830px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     color: #000000;
-    border: green solid
+
   
   }
 
