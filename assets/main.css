@@ -187,8 +187,8 @@ margin-top: 80px;
   }
   
   .scheader {
-    font-family: 'Bebas Neue';
-    font-weight: 500;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 400;
     padding-top: 57px;
     font-size: 46px;
     width: 61.45%;
@@ -197,14 +197,13 @@ margin-top: 80px;
     margin-left: auto;
     text-align: center;
     color: #000000;
-    border: red solid;
   }
 
   .sclist {
     font-family: 'Raleway';
     font-weight: 400;
     padding-top: 33px;
-    font-size: 22px;
+    font-size: 21px;
     text-align: left;
     width: 42%;
     margin-right: auto;
@@ -219,3 +218,15 @@ li {
   li::marker {
     color: #D9944F
   }
+
+  .thirdcontainer {
+    background: #1F1F21;
+
+  
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+    position:relative;
+    padding: 0px;
+    margin: 0px;
+    }
