@@ -232,3 +232,51 @@ li {
     padding: 0px;
     margin: 0px;
     }
+
+  /*ПОДВАЛ*/
+
+  .lastcontainer {
+    background: #100f0f;
+
+  
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+    position:relative;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .footer { 
+  width: 61.45%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  }
+
+  .footerleft {
+  float: left;
+  width: 100%;
+  color: #FFFFFF;
+  }
+
+  .logobasement {
+    flex: 18%;
+    margin-top: 96px;
+    margin-bottom: 84px;
+    align-items: left;
+    border: red solid;
+  }
+
+  span.numberbasement {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  span.emailbasement {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0px;
+  }
