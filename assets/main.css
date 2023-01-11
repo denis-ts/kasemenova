@@ -261,6 +261,26 @@ li {
   color: #FFFFFF;
   }
 
+  .footercontacts {
+    position: relative;
+    margin: 0 0 30px;
+    list-style-type: none;
+  }
+  
+  ul.footercontacts {
+    font-size: 800px;
+  }
+
+
+
+
+
+
+
+
+
+
+
   .logobasement {
     flex: 18%;
     margin-top: 96px;
@@ -269,14 +289,3 @@ li {
     border: red solid;
   }
 
-  span.numberbasement {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 32px;
-  }
-
-  span.emailbasement {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 0px;
-  }
