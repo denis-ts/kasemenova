@@ -238,13 +238,13 @@ li {
   .lastcontainer {
     background: #100f0f;
 
-  
     overflow: hidden;
     background-repeat: no-repeat;
     
     position:relative;
     padding: 0px;
     margin: 0px;
+    border: 2px blue solid;
   }
 
   .footer { 
@@ -253,25 +253,38 @@ li {
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  border: 2px red solid;
   }
 
   .footerleft {
   float: left;
-  width: 100%;
+  width: 41%;
   color: #FFFFFF;
+  border: 2px green solid;
+  font-size: 15px;
   }
 
   .footercontacts {
     position: relative;
-    margin: 0 0 30px;
+    margin: 20 0 7px;
+    padding: 0;
     list-style-type: none;
+
+    border: 2px yellow solid;
   }
+
+
+  .numbermail {
+
+    font-size: 20px;
   
-  ul.footercontacts {
-    font-size: 800px;
+
   }
 
-
+  .numbermail a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
 
 
 
