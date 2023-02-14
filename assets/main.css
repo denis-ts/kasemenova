@@ -236,7 +236,7 @@ li {
   /*ПОДВАЛ*/
 
   .lastcontainer {
-    background: #100f0f;
+    background: #070606;
 
     overflow: hidden;
     background-repeat: no-repeat;
@@ -250,6 +250,7 @@ li {
   .footer { 
   width: 61.45%;
   height: 100%;
+  padding-top: 96px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -258,27 +259,14 @@ li {
 
   .footerleft {
   float: left;
-  width: 41%;
+  width: 30%;
   color: #FFFFFF;
   border: 2px green solid;
   font-size: 15px;
   }
 
-  .footercontacts {
-    position: relative;
-    margin: 20 0 7px;
-    padding: 0;
-    list-style-type: none;
-
-    border: 2px yellow solid;
-  }
-
-
   .numbermail {
-
-    font-size: 20px;
-  
-
+    padding-top: 20px;
   }
 
   .numbermail a {
@@ -286,19 +274,76 @@ li {
     text-decoration: none;
   }
 
-
-
-
-
-
-
-
-
-  .logobasement {
-    flex: 18%;
-    margin-top: 96px;
-    margin-bottom: 84px;
-    align-items: left;
-    border: red solid;
+  .numbermail .contacts_tel {
+    font-size: 20px;
+    font-weight: 400;
   }
 
+  .numbermail .contacts_mail {
+    font-size: 13px;
+    font-weight: 200;
+  }
+
+  .logos_footer {
+    padding-top: 20px;
+  }
+
+  .copyright {
+    display: inline;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  .footercenter {
+    float: left;
+    width: 20%;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1px;
+    padding-left: 126px;
+    border: 2px green solid;
+  }
+
+  .footercenter ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+  }
+
+  .footercenter li {
+    margin: 0px 0px 14px; 
+  }
+
+  .footerright {
+    float: left;
+    width: 14%;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1px;
+    padding-left: 56px;
+    border: 2px green solid;
+  }
+
+  .footerright ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+  }
+
+  .footerright li {
+    margin: 0px 0px 14px; 
+  }
+  
+  .politics {
+    float: left;
+    width: 36%;
+    padding-top: 147px;
+    padding-left: 212px;
+    float: right;
+    font-size: 13px;
+    font-weight: 200;
+    border: 2px green solid;
+  }
