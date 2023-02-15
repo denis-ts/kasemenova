@@ -127,21 +127,23 @@ margin: 0px;
 .button {
   position: absolute;
   transform: translate(-50%,-50%);
-  margin: 70px 0px 50px 95px;
+  margin: 70px 0px 50px 150px;
 }
+
+
 
 .btn {
   position: relative;
   display: block;
   color: white;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 600;
   font-family: "montserrat";
   text-decoration: none;
 
   border: 2px solid;
   border-image: linear-gradient(to right, #D9944F, #403121) 1;
-  padding: 14px 20px;
+  padding: 24px 40px;
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
@@ -251,7 +253,17 @@ li {
     margin: 0px;
     }
 
-  /*ПОДВАЛ*/
+    .thirdlist { 
+      background-image: url("light.png");
+      width: 61.45%;
+      height: 100%;
+      padding: 96px 0 84px 0;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      }
+
+      /*ПОДВАЛ*/
 
   .lastcontainer {
     background: #070606;
@@ -326,6 +338,11 @@ li {
 
   .footercenter li {
     margin: 0px 0px 10px; 
+  }
+  
+  .footercenter a {
+    color: #FFFFFF;
+    text-decoration: none;
   }
 
   .footerright {
