@@ -127,7 +127,7 @@ margin: 0px;
 .button {
   position: absolute;
   transform: translate(-50%,-50%);
-  margin: 70px 0px 50px 90px;
+  margin: 70px 0px 50px 95px;
 }
 
 .btn {
@@ -262,7 +262,6 @@ li {
     position:relative;
     padding: 0px;
     margin: 0px;
-    border: 2px blue solid;
   }
 
   .footer { 
@@ -272,14 +271,12 @@ li {
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  border: 2px red solid;
   }
 
   .footerleft {
   float: left;
   width: 30%;
   color: #FFFFFF;
-  border: 2px green solid;
   font-size: 15px;
   }
 
@@ -319,7 +316,6 @@ li {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
-    border: 2px green solid;
   }
 
   .footercenter ul {
@@ -338,7 +334,6 @@ li {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
-    border: 2px green solid;
   }
 
   .footerright ul {
@@ -359,5 +354,4 @@ li {
     font-size: 13px;
     text-align: right;
     font-weight: 200;
-    border: 2px green solid;
   }
